@@ -14,33 +14,33 @@
   </header>
   
   <form id="patientss_form">
-    <label>Nombres</label><br>
-    <input type="text"><br>
+    <label for="nombres">Nombres</label><br>
+    <input type="text" id="nombres" required><br>
     
-    <label>Apellidos</label><br>
-    <input type="text"><br>
+    <label for="apellidos">Apellidos</label><br>
+    <input type="text" id="apellidos" required><br>
     
-    <label>Número de cédula</label><br>
-    <input type="number"><br>
+    <label for="cedula">Número de cédula</label><br>
+    <input type="number" id="cedula" required><br>
     
-    <label>Edad (años)</label><br>
-    <input type="number"><br>
+    <label for="edad">Edad (años)</label><br>
+    <input type="number" id="edad" required><br>
     
-    <label>Teléfono</label><br>
-    <input type="number"><br>
+    <label for="telefono">Teléfono</label><br>
+    <input type="number" id="telefono" required><br>
     
-    <label>Especialidad requerida</label><br>
-    <select>
-      <option ="1">Medicina general</option>
-      <option ="2">Cardiología</option>
-      <option ="3">Medicina interna</option>
-      <option ="4">Dermatología</option>
-      <option ="5">Rehabilitación física</option>
-      <option ="6">Psicología</option>
-      <option ="7">Odontología</option>
-      <option ="8">Radiología</option>
+    <label for="especialidad">Especialidad requerida</label><br>
+    <select name="especialidad" id="especialidad" required>
+      <option value="1">Medicina general</option>
+      <option value="2">Cardiología</option>
+      <option value="3">Medicina interna</option>
+      <option value="4">Dermatología</option>
+      <option value="5">Rehabilitación física</option>
+      <option value="6">Psicología</option>
+      <option value="7">Odontología</option>
+      <option value="8">Radiología</option>
     </select>
-    <submit>Registrar</submit>
+    <input type="submit" value="Registrarr">
   </form>
 
 
