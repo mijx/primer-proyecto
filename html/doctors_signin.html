@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="es">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Doctors signin</title>
+  <link href="../styles/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1>Registro personal médico</h1>
+  </header>
+  
+  <form id="doctors_form">
+    <label for="nombres">Nombres</label><br>
+    <input type="text" id="nombres" required><br>
+    
+    <label for="apellidos">Apellidos</label><br>
+    <input type="text" id="apellidos" required><br>
+    
+    <label for="cedula">Número de cédula</label><br>
+    <input type="number" id="cedula" required><br>
+    
+    <label for="consultorio">Número de consultorio</label><br>
+    <input type="number" id="consultorio" required><br>
+    
+    <label for="telefono">Teléfono</label><br>
+    <input type="number" id="telefono" required><br>
+    
+    <label for="correo">Correo</label><br>
+    <input type="email" id="correo" required><br>
+    
+    <label for="especialidad">Especialidad</label><br>
+    <select name="especialidad" id="especialidad" required>
+      <option value="1">Medicina general</option>
+      <option value="2">Cardiología</option>
+      <option value="3">Medicina interna</option>
+      <option value="4">Dermatología</option>
+      <option value="5">Rehabilitación física</option>
+      <option value="6">Psicología</option>
+      <option value="7">Odontología</option>
+      <option value="8">Radiología</option>
+    </select>
+
+    <br><input type="submit" value="Registrar">
+  </form>
+  <a href="../index.html"><input type="button" value="Volver"></a>
+
+  <script src="../app.js"></script>
+  
+</body>
+
+</html>
