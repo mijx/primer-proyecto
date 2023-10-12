@@ -16,6 +16,84 @@ header{
   color: #050505;
 }
 
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 10%;
+  width: 100%;
+  color: #000000;
+  padding: 5px;
+  text-align: center;
+}
+
+.button_container{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button_container a {
+  display: inline-block;
+  width: 200px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #f8ded8;
+  border: solid 3px #ec6c7c;  
+  color: #050505;
+  cursor: pointer;
+}
+
+.button_container a:hover {
+  transition: background-color 0.3s ease;
+  background-color: #ec6c7c;
+}
+
+/* Menus de la página de inicio */
+#actions {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.actions_menu {
+  display: inline-block;
+  width: 49%;
+  margin: 2%;
+  padding: 10px; 
+  border: solid 3px #83d5cf;
+  border-radius: 10px 20px;
+}
+
+.actions_menu h2 {
+  margin: 0;
+}
+
+.actions_menu a {
+  display: block; /* Make the links block-level for better styling */
+  margin: 10px 0;
+}
+
+.actions_menu button {
+  background-color: #83d5cf;
+  width: 60%;
+  color: #050505;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.actions_menu button:hover {
+  background-color: #6ea7a0;
+  color: #fff;
+}
+
+/* Tablas de la página de listados */
+
 table{
   color: #050505;
   table-layout: fixed;
@@ -43,27 +121,6 @@ tbody tr:hover{
   background: #f8ded8;
 }
 
-.button_container{
-  text-align: center;
-  margin-top: 20px;
-}
-
-.button_container a {
-  display: inline-block;
-  width: 200px;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  background-color: #f8ded8;
-  border: solid 3px #ec6c7c;  
-  color: #050505;
-  cursor: pointer;
-}
-
-.button_container a:hover {
-  transition: background-color 0.3s ease;
-  background-color: #ec6c7c;
-}
 
 
 
