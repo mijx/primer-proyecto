@@ -16,16 +16,15 @@ header{
   color: #050505;
 }
 
-/* #actions, table{
-  
-} */
-
 table{
   color: #050505;
   table-layout: fixed;
   font-size: 14px;
   border-collapse: collapse;
   border: solid 1px #ec6c7c;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 80%;
 }
 
 th{
@@ -37,10 +36,35 @@ th{
 
 td{
   padding: 15px;
+  text-align: center;
 }
 
 tbody tr:hover{
   background: #f8ded8;
 }
+
+.button_container{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button_container a {
+  display: inline-block;
+  width: 200px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #f8ded8;
+  border: solid 3px #ec6c7c;  
+  color: #050505;
+  cursor: pointer;
+}
+
+.button_container a:hover {
+  transition: background-color 0.3s ease;
+  background-color: #ec6c7c;
+}
+
+
 
 
