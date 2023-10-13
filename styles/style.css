@@ -16,13 +16,16 @@ header{
   color: #050505;
 }
 
-footer {
-  position: fixed;
+h2{
+  font-size: 20px;
+}
+
+footer{
+  position: static;
   left: 0;
   bottom: 0;
-  height: 10%;
   width: 100%;
-  color: #000000;
+  height: 10%;
   padding: 5px;
   text-align: center;
 }
@@ -37,6 +40,7 @@ footer {
   width: 200px;
   padding: 10px 20px;
   text-align: center;
+  font-size: 20px;
   text-decoration: none;
   background-color: #f8ded8;
   border: solid 3px #ec6c7c;  
@@ -48,6 +52,8 @@ footer {
   transition: background-color 0.3s ease;
   background-color: #ec6c7c;
 }
+
+
 
 /* Menus de la página de inicio */
 #actions {
@@ -74,7 +80,7 @@ footer {
 }
 
 .actions_menu a {
-  display: block; /* Make the links block-level for better styling */
+  display: block;
   margin: 10px 0;
 }
 
@@ -85,12 +91,58 @@ footer {
   border: none;
   padding: 10px 20px;
   cursor: pointer;
+  font-size: 15px;
 }
 
 .actions_menu button:hover {
   background-color: #6ea7a0;
   color: #fff;
 }
+
+
+
+
+/* Formularios de registro */
+
+form{
+  margin: auto;
+  width: 50%;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+label{
+  text-align: left;
+  display: block;
+  padding-bottom: 5px;
+  color: #000000;
+  font-weight: 700;
+}
+
+input,select {
+  display: block;
+  width:100%;
+  padding: 10px;
+  background: #f8f5e6;
+  color: #000000;
+  font-size: 15px;
+  
+  border: solid 2px #ec6c7c;
+  border-radius: 10px;
+}
+
+input[value="Registrar"]{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-color: #f8ded8;
+}
+input[value="Registrar"]:hover{
+  transition: background-color 0.3s ease;
+  background-color: #ec6c7c;
+}
+
+
+
 
 /* Tablas de la página de listados */
 
@@ -99,7 +151,7 @@ table{
   table-layout: fixed;
   font-size: 14px;
   border-collapse: collapse;
-  border: solid 1px #ec6c7c;
+  border: solid 2px #ec6c7c;
   margin: 0 auto;
   margin-top: 20px;
   width: 80%;
@@ -110,18 +162,15 @@ th{
   padding: 20px 15px;
   font-weight: 700;
   text-transform: uppercase;
+  font-size: 20px;
 }
 
 td{
   padding: 15px;
   text-align: center;
+  font-size: 15px;
 }
 
 tbody tr:hover{
   background: #f8ded8;
 }
-
-
-
-
-
